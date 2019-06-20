@@ -86,16 +86,33 @@ Bayes' Theorem is an important tool in understanding what we really know, given 
 
 Elvis Presley had a twin brother who died at birth.  What is the probability that Elvis was an identical twin? Assume we observe the following probabilities in the population: fraternal twin is 1/125 and identical twin is 1/300.  
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+>> (1/2 . 1/300) / ((1/2 . 1/300) + (1/4 . 1/125)) = APPROX.  5/11
 
 ---
 
 ### Q6. Bayesian &amp; Frequentist Comparison  
 How do frequentist and Bayesian statistics compare?
 
->> REPLACE THIS TEXT WITH YOUR RESPONSE
+The Bayesian school models uncertainty by a probability distribution over hypotheses.
+One’s ability to make inferences depends on one’s degree of confidence in the chosen prior,
+and the robustness of the findings to alternate prior distributions may be relevant and
+important.
 
----
+The frequentist school only uses conditional distributions of data given specific hypotheses.
+The presumption is that some hypothesis (parameter specifying the conditional distribution
+of the data) is true and that the observed data is sampled from that distribution.
+
+Bayesian inference
+• uses probabilities for both hypotheses and data.
+• depends on the prior and likelihood of observed data.
+• requires one to know or construct a ‘subjective prior’.
+• may be computationally intensive due to integration over many parameters.
+
+Frequentist inference (NHST)
+• never uses or gives the probability of a hypothesis (no prior or posterior).
+• depends on the likelihood P(D | H)) for both observed and unobserved data.
+• does not require a prior.
+• tends to be less computationally intensive.---
 
 ## <a name="section-e"></a>5.  Optional Exercises
 
