@@ -4,5 +4,5 @@
 
 # 1) As one would expect, the scatter plot shows that there is no relationship, or at best a very weak relationship
 #    between the age of an individual and their weight.  Both the Person's and Spearman's correlations support these
-#    findings as well.  With a Person's corr or .07 and a Spearman' s corr of .09 both indicating a non-relationsip 
+#    findings as well.  With a Person's corr or .07 and a Spearman' s corr of .09 both indicating a weak-relationship 
 #    between the two variables.
